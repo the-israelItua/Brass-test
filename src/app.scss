@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+// material ui select field overrides
+
+.css-lsp5xe {
+  height: 2.867rem !important;
+  border: 1px solid #748cad !important;
+}
+
+.css-178dftq {
+  margin-top: 0rem !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

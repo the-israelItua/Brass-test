@@ -1,0 +1,42 @@
+.tablecontainer {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+
+  .th {
+    background-color: #ffffff;
+    font-size: 0.9em;
+    color: rgb(39, 39, 39);
+    padding: 0.825rem 1.65rem;
+    background-color: #ccc;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: left;
+    height: 2.4rem;
+    vertical-align: middle;
+  }
+  .td {
+    color: #939393;
+    font-size: 0.875em;
+    font-weight: 500;
+    padding: 1.625rem 1.65rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #939393;
+    min-width: 150;
+    vertical-align: middle;
+  }
+
+  .tr {
+    &:last-child {
+      td {
+        border-bottom: none;
+      }
+    }
+  }
+}

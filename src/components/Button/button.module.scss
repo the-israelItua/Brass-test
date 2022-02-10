@@ -1,0 +1,21 @@
+.button {
+  height: 3.1rem;
+  border-radius: 0.25rem;
+  background: #262626;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+
+  &:disabled {
+    background: #ccc;
+  }
+
+  &__orange {
+    background: #f79e1b;
+  }
+}

@@ -1,0 +1,41 @@
+.payment {
+  background-color: #939393;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  &__body {
+    width: 50vw;
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 0.3rem;
+    @media screen and(max-width: 576px) {
+      width: 100vw;
+    }
+    &__grp {
+      margin-top: 2rem;
+
+      &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+      }
+
+      &__btn {
+        width: 40%;
+        margin-top: 3rem;
+
+        &__grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1rem;
+          margin-top: 3rem;
+        }
+      }
+
+      &__select {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
