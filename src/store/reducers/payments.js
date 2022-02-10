@@ -6,7 +6,7 @@ const initialState = {
   payments: [],
 };
 
-export default (state = initialState, { type, payload }) => {
+const paymentReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case types.FETCH_BANK_NAMES:
       return {
@@ -37,3 +37,5 @@ export default (state = initialState, { type, payload }) => {
       return state;
   }
 };
+
+export default paymentReducer;

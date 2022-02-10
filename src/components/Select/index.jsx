@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { SelectMenu, Button } from "evergreen-ui";
+import { SelectMenu } from "evergreen-ui";
 import styles from "./select.module.scss";
 
 const Select = ({ label, options, onChange }) => {

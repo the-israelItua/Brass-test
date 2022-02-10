@@ -17,7 +17,7 @@ const MakePayment = () => {
     if (!banks.length) {
       dispatch(fetchBanks());
     }
-  }, []);
+  }, [dispatch, banks.length]);
 
   return (
     <Layout>

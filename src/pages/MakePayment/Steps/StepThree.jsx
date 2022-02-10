@@ -30,7 +30,7 @@ const StepThree = ({ setStep }) => {
     };
 
     dispatch(createTransferRecipient(params));
-  }, []);
+  }, [dispatch]);
 
   const handleNext = () => {
     setLoading(true);
